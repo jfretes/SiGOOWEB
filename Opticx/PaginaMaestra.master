@@ -1,0 +1,162 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PaginaMaestra.master.cs" Inherits="PaginaMaestra" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="overflow-x: hidden;">
+    <form id="form1" runat="server">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panelModificado panel-morado-oscuro">
+                    <div class="panel-heading-2">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 offset">
+
+
+                                        <table>
+                                            <tr style="text-align: right">
+                                                <td>
+                                                    <img class="img-responsive" src="img\login.png" height="32px" width="32px" title="Ingresar" style="font-style: italic" />
+                                                </td>
+                                                <td>
+
+                                                    <div style="position: relative; font-size: 12px; font-weight: 500; top: 5px; left: 5px; z-index: 1;">INGRESAR</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                                        <table>
+                                            <tr>
+
+                                                <td style="position: relative; left: 25px; top: 3px">
+                                                    <img class="img-responsive" src="img\contacto.png" height="32px" width="32px" title="Contacto" style="font-style: italic" />
+                                                </td>
+                                                <td>
+                                                    <div style="position: relative; font-size: 12px; font-weight: 500; top: 5px; left: 30px; z-index: 1;">CONTACTO</div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                                        <table>
+                                            <tr>
+
+                                                <td style="position: relative; left: 40px; top: 3px">
+                                                    <img class="img-responsive" src="img\ubicacion.png" height="32px" width="32px" title="Localizador" style="font-style: italic" />
+                                                </td>
+
+
+                                                <td>
+                                                    <div style="position: relative; font-size: 12px; font-weight: 500; top: 5px; left: 40px; z-index: 1;">LOCALIZADOR DE TIENDAS</div>
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                                        <table>
+                                            <tr>
+                                                <td style="position: relative; left: 55px; top: 3px">
+                                                    <img class="img-responsive" src="img\ayuda.png" height="32px" width="32px" title="Ayuda" style="font-style: italic" />
+                                                </td>
+                                                <td>
+                                                    <div style="position: relative; font-size: 12px; font-weight: 500; top: 5px; left: 62px; z-index: 1;">AYUDA</div>
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div style="border-radius: 0px">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading-2">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-6 col-xs-6">
+                                        <div class="row">
+                                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                                                <img class="img-responsive" src="img\logoBlanco.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 <%--col-xs-offset-4--%>">
+                                        <div style="margin-top: 20px; text-align: center">
+                                            <nav class="navbar navbar-default">
+
+                                                <div class="container-fluid">
+                                                    <!-- Brand and toggle get grouped for better mobile
+                        display -->
+                                                    <div class="navbar-header">
+                                                        <button type="button" class="navbar-toggle
+                        collapsed"
+                                                            data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                                            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
+                                                                class="icon-bar"></span><span class="icon-bar"></span>
+                                                        </button>
+                                                        <%--<a class="navbar-brand"
+                        href="img/logo.png">Brand</a>--%>
+                                                    </div>
+                                                    <!-- Collect the nav links, forms, and
+                        other content for toggling -->
+                                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"
+                                                        style="text-align: right">
+                                                        <ul class="nav navbar-nav navbar-right">
+                                                            <li <%--class="active"--%>><a href="Zoologico.aspx">Principal<span class="sr-only">(current)></span></a></li>
+                                                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                                                role="button" aria-haspopup="true" aria-expanded="false">Más<span class="caret"></span></a>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="AgregarAnimal.aspx">Agregar</a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!-- /.navbar-collapse -->
+                                                </div>
+                                                <!-- /.container-fluid -->
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+     
+        <div id="footer">
+
+            <div class="footer">
+
+                <p class="text-muted credit">Example courtesy <a href="http://martinbean.co.uk/">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+
+            </div>
+        </div>
+
+    
+    </form>
+   
+
+</body>
+</html>
